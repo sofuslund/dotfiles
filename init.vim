@@ -1,0 +1,1 @@
+/home/sofus/.config/nvim/init.vim
