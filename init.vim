@@ -27,11 +27,11 @@ endif
 nnoremap <esc> :noh<return><esc>
 nnoremap <esc>^[ <esc>^[
 
-set number 				    " show line numbers
-set ruler				    " show location in file in down right corner
+set number 				" show line numbers
+set ruler				" show location in file in down right corner
 
 set nocompatible			" disable compatibility for old vi
-set showmatch				" show matching parentheses
+"set showmatch				" show matching parentheses
 
 set hlsearch				" highlight search results
 set incsearch				" move to search results while typing expression (like google chrome's find)
@@ -42,12 +42,12 @@ set expandtab				" insert spaces when tab is pressed
 set shiftwidth=4			" set how many spaces is used for indentation
 set autoindent				" indent a new line the same amount as the line just typed
 
-set wildmode=longest,list	" tab completions like bash
+set wildmode=longest,list		" tab completions like bash
 
-set mouse=a				    " enable mouse clicks
-set clipboard=unnamedplus	" use system clipboard
+set mouse=a				" enable mouse clicks
+set clipboard=unnamedplus		" use system clipboard
 set ttyfast				    " enable faster scrolling
 
 set encoding=utf-8			" set the default encoding
 set visualbell				" don't make sounds
-syntax on				    " set syntax highlighting
+syntax on				" set syntax highlighting
