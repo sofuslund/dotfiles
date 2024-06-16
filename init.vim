@@ -27,6 +27,10 @@ endif
 nnoremap <esc> :noh<return><esc>
 nnoremap <esc>^[ <esc>^[
 
+" Close {
+inoremap {<CR> {<CR>}<C-o>O
+
+
 set number 				" show line numbers
 set ruler				" show location in file in down right corner
 
